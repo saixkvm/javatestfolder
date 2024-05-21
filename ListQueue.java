@@ -15,7 +15,7 @@ public class ListQueue<E>
         //Node constructor with param dataItem
         public Node(E dataItem){
             data = dataItem;
-            priority = Integer.MAX_VALUE;
+            priority = 10000;
         }
         //Node constructor with dataItem and priority
         public Node(E dataItem,int priority){
