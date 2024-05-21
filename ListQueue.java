@@ -32,6 +32,9 @@ public class ListQueue<E>
         public E getData(){
             return data;
         }
+        public E getData(){
+            return data;
+        }
         public Node<E> getNext(){
             return next;
         }
